@@ -1,0 +1,62 @@
+.articles-page {
+    padding: 20px;
+  }
+  
+  .articles-page h1 {
+    text-align: center;
+  }
+  
+  .subtopic-selector {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .subtopic-selector select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form h2 {
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+  }
+  
+  .article-table {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .article-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .article-table th, .article-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .article-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .article-table td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  

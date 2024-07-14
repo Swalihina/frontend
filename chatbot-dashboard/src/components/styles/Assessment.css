@@ -1,0 +1,16 @@
+.assessment-container {
+  padding: 20px;
+}
+
+.assessment-container h1 {
+  margin-bottom: 20px;
+}
+
+.assessment-container p {
+  margin-bottom: 20px;
+}
+
+.assessment-container button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}

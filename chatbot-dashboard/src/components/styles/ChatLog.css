@@ -1,0 +1,35 @@
+/* src/components/styles/ChatLog.css */
+.chat-log-container {
+    padding: 20px;
+  }
+  
+  .chat-log-list {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .chat-log-item {
+    margin-bottom: 15px;
+  }
+  
+  .chat-log-timestamp {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .chat-log-message {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #e0f7fa;
+    text-align: left;
+  }
+  
+  .chatbot-message {
+    background-color: #f1f8e9;
+    text-align: left;
+  }
+  

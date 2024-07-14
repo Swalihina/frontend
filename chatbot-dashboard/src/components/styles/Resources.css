@@ -1,0 +1,94 @@
+/* resources.css */
+
+.resources {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.resource-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resource-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1 1 200px;
+}
+
+.resource-item h2 {
+  margin: 0;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1rem;
+}

@@ -1,0 +1,78 @@
+/* SettingsPage.css */
+
+.settings-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-section {
+  margin-bottom: 20px;
+}
+
+.settings-section h3 {
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.settings-section:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 12px 0;
+}
+/* SettingsPage.css */
+
+.setting {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.setting h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.setting label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.setting input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.setting input[type="checkbox"]:checked + span {
+  font-weight: bold;
+}
+
+.setting input[type="checkbox"]:checked + span::before {
+  content: '\2713';
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.setting input[type="checkbox"]:checked + span::after {
+  content: 'Enabled';
+  color: #4CAF50;
+}
+
+.setting input[type="checkbox"] + span::after {
+  content: 'Disabled';
+  color: #F44336;
+}
+

@@ -1,0 +1,22 @@
+/* src/components/styles/Settings.css */
+.settings-container {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin-left: 10px;
+  }
+  
